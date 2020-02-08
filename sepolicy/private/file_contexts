@@ -12,6 +12,7 @@
 
 # Fingerprint nodes
 /sys/devices/virtual/touch/tp_dev/fod_status    u:object_r:sysfs_tp_fodstatus:s0
+/system/etc/goodix(/.*)?      u:object_r:fingerprint_data_file:s0
 
 # HALs
 /system/bin/hw/android\.hardware\.power@1\.3-service\.raphael-libperfmgr                                     u:object_r:libperfmgr_exec:s0
