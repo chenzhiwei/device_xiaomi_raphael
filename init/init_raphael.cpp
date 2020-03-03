@@ -47,7 +47,7 @@ void load_raphaelglobal() {
     property_override("ro.product.model", "Mi 9T Pro");
     property_override("ro.build.product", "raphael");
     property_override("ro.product.device", "raphael");
-    property_override("ro.build.description", "raphael-user 10 QKQ1.190825.002 V11.0.2.0.QFKMIXM release-keys");
+    property_override("ro.build.description", "raphael-user 10 QKQ1.190825.002 V11.0.3.0.QFKMIXM release-keys");
 }
 
 void load_raphaelin() {
